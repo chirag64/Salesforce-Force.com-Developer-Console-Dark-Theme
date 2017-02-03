@@ -101,4 +101,8 @@ div.CodeMirror span.CodeMirror-matchingbracket {
 .CodeMirror-linenumber {
     color: white;
 }
+
+.VARIABLE_DECLARATION {
+    color: #66d9ef;
+}
 }
