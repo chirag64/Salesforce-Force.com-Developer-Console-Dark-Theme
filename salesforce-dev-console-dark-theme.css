@@ -1,7 +1,7 @@
 @-moz-document regexp("^(.+?)\\.salesforce\\.com\\/\\_ui\\/common\\/apex\\/debug\\/ApexCSIPage$") {
 .CodeMirror-code {
     background-color: #272822;
-    font-family: 'Source Code Pro', 'Hack', 'Segoe UI', monospace;
+    font-family: 'Source Code Pro', 'Hack', 'Monospace', 'Consolas', 'Menlo-Regular', 'Segoe UI', monospace;
 }
 
 .cm-s-default span.cm-keyword {
@@ -104,5 +104,17 @@ div.CodeMirror span.CodeMirror-matchingbracket {
 
 .VARIABLE_DECLARATION {
     color: #66d9ef;
+}
+
+.VARIABLE_REFERENCE {
+    color: white;
+}
+
+.USER_DEFINED:hover {
+    text-decoration: none;
+}
+
+.cm-s-default span.cm-builtin {
+    color: #a6e22e;
 }
 }
